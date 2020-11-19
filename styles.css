@@ -1,0 +1,14 @@
+.body {
+    margin: auto;
+    height: 50px;
+    width: 100px;
+}
+
+.container {
+    height: 960px;
+    width: 960px;
+    margin: auto;
+    border: 1px solid black;
+    display: grid;
+    grid: 10px 10px / 1fr 1fr;
+}
