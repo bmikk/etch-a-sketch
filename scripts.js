@@ -55,7 +55,7 @@ function resetGrid() {
 function colorGrid() {
     let childDivs = document.getElementsByClassName('gridItem');
     for (let i = 0; i < childDivs.length; i++) {
-        let randomColor = Math.floor(Math.random()*16777215).toString(16);
+        let randomColor = Math.floor(Math.random()*16777215).toString(16); //Neat method that converts a huge number into hexadecimal
         childDivs[i].addEventListener('mouseover', (e) => (e.target.style.backgroundColor = '#' + randomColor));
     }
 }
